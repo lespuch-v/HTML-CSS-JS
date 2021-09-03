@@ -1,0 +1,73 @@
+.main-container{
+    width: 400px;
+    height: 100vh;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.myButton{
+    width: 100px;
+    height: 100px;
+    border: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.myButton:hover{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.myBTN-modal{
+    position: absolute;
+    display: none;
+    width: 800px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(207, 207, 207);
+
+}
+.pictures{
+    width: 200px;
+    height: auto;
+
+}
+.myIcon{
+    width: 90px;
+}
+.myIcon:hover{
+    transform: scale(1.1);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 250ms;
+}
+#closeBtn{
+    width: 140px;
+    height: 80px;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    left: 460px;
+}
+#hooooomer{
+    width: 800px;
+    border-radius: 30px;
+}
+.myPara{
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    left: 320px;
+}
